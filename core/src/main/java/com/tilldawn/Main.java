@@ -24,7 +24,6 @@ public class Main extends Game {
         gameApp.setUsersInfo(SaveLoadFile.loadFile());
         MusicManager.getInstance().playMusic();
         getMain().setScreen(new SignUpMenuView(new SignUpMenuController(), GameAssetManager.getGameAssetManager().getSkin()));
-//        getMain().setScreen(new ProfileMenuView(new ProfileMenuController(), GameAssetManager.getGameAssetManager().getSkin()));
     }
 
     @Override
