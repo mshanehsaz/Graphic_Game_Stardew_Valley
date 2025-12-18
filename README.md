@@ -1,33 +1,44 @@
-# untildawn
+# Stardew Valley Rebuild 🌱
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+An unofficial **Stardew Valley–inspired farming and life simulation game** where players inherit a farm, grow crops, raise animals, build relationships, and explore mysterious caves.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## 🌟 Features
+- **[Farm Creation](guide://action?prefill=Tell%20me%20more%20about%3A%20Farm%20Creation)**: Transform overgrown fields into a thriving farm with crops, orchards, and animals.  
+- **[Seasonal Gameplay](guide://action?prefill=Tell%20me%20more%20about%3A%20Seasonal%20Gameplay)**: Experience four unique seasons, each with its own crops, festivals, and challenges.  
+- **[Community Interaction](guide://action?prefill=Tell%20me%20more%20about%3A%20Community%20Interaction)**: Befriend over 30 townsfolk, build relationships, and even start a family.  
+- **[Mining & Combat](guide://action?prefill=Tell%20me%20more%20about%3A%20Mining%20%26%20Combat)**: Explore caves filled with monsters, ores, and treasures.  
+- **[Fishing & Foraging](guide://action?prefill=Tell%20me%20more%20about%3A%20Fishing%20%26%20Foraging)**: Relax by rivers, lakes, and oceans, or gather resources from the wild.  
+- **[Customization](guide://action?prefill=Tell%20me%20more%20about%3A%20Customization)**: Decorate your farmhouse, upgrade tools, and personalize your character.  
+- **[Multiple Paths](guide://action?prefill=Tell%20me%20more%20about%3A%20Multiple%20Paths)**: Restore the Community Center or support Joja Corporation — the choice is yours.  
 
-## Platforms
+## 🚀 Getting Started
+Clone the repository and run the game locally:
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+```bash
+git clone https://github.com/your-username/stardew-rebuild.git
+cd stardew-rebuild
 
-## Gradle
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+🎯 Goal of the Project
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+This project is a fan-made remake of the beloved farming RPG Stardew Valley. It is designed for learning, experimenting, and exploring game development concepts such as:
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+    Procedural farming systems
+
+    NPC interaction and AI
+
+    Seasonal event design
+
+    Resource and economy balancing
+
+🛠️ Tech Stack
+
+    Language: C++ / Java / Python (depending on your implementation)
+
+    Graphics: SDL2 / OpenGL / Unity / Godot
+
+    Build Tools: CMake / Gradle / etc.
+
+📜 Disclaimer
+
+This is an unofficial project inspired by Stardew Valley. It is not affiliated with or endorsed by ConcernedApe or any official studio.
