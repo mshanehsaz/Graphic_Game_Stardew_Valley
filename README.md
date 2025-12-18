@@ -9,15 +9,7 @@ An unofficial **Stardew Valley–inspired farming and life simulation game** whe
 - **[Mining & Combat](guide://action?prefill=Tell%20me%20more%20about%3A%20Mining%20%26%20Combat)**: Explore caves filled with monsters, ores, and treasures.  
 - **[Fishing & Foraging](guide://action?prefill=Tell%20me%20more%20about%3A%20Fishing%20%26%20Foraging)**: Relax by rivers, lakes, and oceans, or gather resources from the wild.  
 - **[Customization](guide://action?prefill=Tell%20me%20more%20about%3A%20Customization)**: Decorate your farmhouse, upgrade tools, and personalize your character.  
-- **[Multiple Paths](guide://action?prefill=Tell%20me%20more%20about%3A%20Multiple%20Paths)**: Restore the Community Center or support Joja Corporation — the choice is yours.  
-
-## 🚀 Getting Started
-Clone the repository and run the game locally:
-
-```bash
-git clone https://github.com/your-username/stardew-rebuild.git
-cd stardew-rebuild
-
+- **[Multiple Paths](guide://action?prefill=Tell%20me%20more%20about%3A%20Multiple%20Paths)**: Restore the Community Center or support Joja Corporation — the choice is yours.
 
 🎯 Goal of the Project
 
@@ -33,11 +25,11 @@ This project is a fan-made remake of the beloved farming RPG Stardew Valley. It 
 
 🛠️ Tech Stack
 
-    Language: C++ / Java / Python (depending on your implementation)
+    Language: Java
 
-    Graphics: SDL2 / OpenGL / Unity / Godot
+    Graphics: LibGDX
 
-    Build Tools: CMake / Gradle / etc.
+    Build Tools: Gradle / etc.
 
 📜 Disclaimer
 
